@@ -10,7 +10,7 @@ public class ReportRepair {
 
     public static void main(String[] args) {
         List<Integer> list =  new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader("./src/il/imthedoggo/reportrepair1/input"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("./src/main/java/il/imthedoggo/reportrepair1/input"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 list.add(Integer.valueOf(line));

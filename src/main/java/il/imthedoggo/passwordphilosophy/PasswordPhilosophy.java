@@ -11,7 +11,7 @@ public class PasswordPhilosophy {
 
     public static void main(String[] args) {
         List<String> passwordList =  new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader("./src/il/imthedoggo/passwordphilosophy/passwords"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("./src/main/java/il/imthedoggo/passwordphilosophy/passwords"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 passwordList.add(line);
